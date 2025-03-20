@@ -52,6 +52,7 @@ button.onclick = () => {
          }
          audio.volume = volume;
          console.log(audio.volume);
+         audio.play();
 
       }
    }
